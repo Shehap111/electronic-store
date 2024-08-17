@@ -1,0 +1,233 @@
+.Navbar {
+    height: 80px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6565665656565;
+}
+.nav-logo{
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    list-style: none;
+
+}
+
+.nav-links a  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: #000000 !important;
+    font-size: 18px;
+    font-weight: 600px;
+    position: relative;
+    transition: all ease-in-out .3s;
+    padding: 10px 10px;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffb300;
+    transition: all ease-in-out .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.nav-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        position: relative;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        top: 80px;
+        height: 100vh;
+        left: -100% ;
+        transition: 0.5s all;
+    }
+
+    .nav-links.active {
+        background: rgb(255, 255, 255);
+        box-shadow: #c1c1c1 1px 1px 5px 1px;
+        left: 0;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+        color: #000;
+
+    }
+
+    .nav-icon {
+        display: flex;
+    }
+}
+
+
+
+
+.fixed_nav{
+    position: fixed !important;
+    left: 0;
+    top: 0px;
+    transform: translateY(-100px);
+    right: 0;
+    z-index: 11111 !important;
+    background-color: #ffffff;
+    border-bottom: 1px solid #66666669;
+    box-shadow: #c1c1c1 1px 1px 5px 1px ;
+    transition: all ease-in-out .3s;
+    animation-name: tranz;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 6565665656565;
+}
+
+@keyframes tranz {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+ .icon-shop{
+    display: flex;
+    margin-left: auto;
+}
+ .icon-shop li{
+    margin: 0 10px ;
+    position: relative;
+}
+.icon-shop li i{
+    font-size: 22px;
+    color: #000000;
+}
+.icon-shop li .cunt_cart{
+    position: absolute;
+    background-color: #ffb300;
+    width: 20px;
+    height: 20px;
+    bottom:-8px;
+    left: -8px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+
+}
+.media_phone{
+    display: none;
+}
+
+
+
+/* media screen */
+@media only screen and (max-width: 900px) {
+    .navbar {
+        position: relative;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        width: 80%;
+        top: 80px;
+        height: 100vh;
+        left: -100%;
+        transition: 0.5s all;
+    }
+
+    .nav-links.active {
+        background: rgb(255, 255, 255);
+        box-shadow: #c1c1c1 1px 1px 5px 1px;
+        left: -0px;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+        color: #000;
+
+    }
+
+    .nav-icon {
+        display: flex;
+    }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+.media_phone{
+    position: fixed;
+    top: 25%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px ;
+    padding-top: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: #a4a4a4 1px 1px 5px 1px;
+    height: 100px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 5546464646464;
+
+}
+.media_screne{
+    display: none !important;
+}
+.icon-shop .fa-heart ,.icon-shop .fa-cart-shopping {
+    margin: 10px 0;
+}
+.icon-shop .fa-user{
+    display: none;
+}
+.media_phone {
+    display: block;
+}
+.Navbar{
+    background-color: #fff;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+}

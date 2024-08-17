@@ -1,0 +1,245 @@
+/* Services */
+.Services {
+    padding: 70px 10%;
+    background-color: #f7f7f7;
+}
+
+.Services .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Services .intro h3 {
+    font-size: 36px;
+    color: #000;
+    padding: 20px;
+}
+
+.Services .intro p {
+    width: 60%;
+    padding: 20px 0;
+    color: #666;
+}
+
+.Services .Allintro img {
+    border-radius: 5px;
+}
+
+.Services .All-content {
+    padding: 70px 0;
+}
+
+.Services .All-content img {
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.Services .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+.Services .content h4 {
+    font-size: 28px;
+    color: #000;
+}
+
+.Services .content p {
+    color: #666;
+    padding: 30px 0;
+    line-height: 1.8;
+}
+.Services .foot_services{
+    padding: 50px 0;
+}
+.Services .foot_services .box{
+    text-align: center;
+}
+.Services .foot_services i{
+    font-size: 52px;
+    color: #000;
+    margin-bottom: 30px ;
+}
+.Services .foot_services h4{
+    margin-bottom: 20px ;
+    color: #000;
+    font-size: 24px;
+}
+.Services .foot_services p{
+    color: #666;
+}
+
+/* Contacts section */
+.Contacts{
+    padding-bottom: 70px;
+}
+.Contacts .row{
+    padding: 50px 0;
+}
+.Contacts h3{
+    font-size: 32px;
+    color: #000;
+}
+.Contacts .box_all{
+    padding: 25px ;
+}
+.Contacts .box_all input{
+    height: 40px;
+    border: 1px solid #0000003f;
+    margin: 30px 0;
+    transition: all ease-in .3s;
+}
+.Contacts .box_all textarea{
+    width: 100%;
+    border:1px solid #0000003f ;
+    transition: all ease-in .3s;
+}
+.Contacts .box_all .SUBMIT{
+    width: 100%;
+    border:1px solid #0000003f ; 
+    transition: all ease-in .3s;
+}
+
+ .Contacts .box_all input:focus , .Contacts .box_all .SUBMIT:focus {
+    box-shadow: none ;
+    border: 1px solid #ffb82b ;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ffb82b !important;
+}
+.Contacts input::placeholder , .Contacts textarea::placeholder{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.Contacts .righr_box{
+    padding: 25px;
+}
+.Contacts .righr_box ul{
+    display: flex;
+}
+.Contacts .righr_box ul li{
+    padding: 20px 0;
+}
+.Contacts .righr_box ul li i{
+    font-size: 30px;
+    margin-right: 20px ;
+}
+.Contacts .righr_box ul li p{
+    font-size: 18px;
+    color: #666;
+}
+.Contacts .righr_box ul li h5{
+    font-size: 24px;
+    color: #000;
+}
+/* .Registration */
+.Registration {
+    background-color:#f7f7f7;
+    padding: 70px 0;
+}
+
+.Registration_card {
+    margin: auto;
+    width: 60%;
+    background-color: #fff;
+    border: 1px solid #0000007a;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.Registration_card h3 {
+    font-size: 24px;
+    color: #000;
+    padding: 20px 0;
+}
+
+.Registration_card p {
+    color: #666;
+}
+
+.Registration_card .input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #000;
+    border: 1px solid #00000085;
+}
+
+.Registration_card input:focus {
+    border-color: burlywood;
+}
+
+.Registration_card label {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.Registration_card .btnn {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all ease-in .3s;
+}
+
+.Registration_card .btnn:hover {
+    opacity: .9;
+}
+
+.Registration_card p .btnn {
+    color: var#000;
+    background-color: #f7f7f7;
+}
+.login {
+    padding: 70px 0;
+    background-color: #f7f7f7;
+}
+
+/* Privacy_Policy / */
+
+.Privacy_Policy {
+    padding: 70px 0;
+    background-color: #f7f7f7;
+}
+
+.Privacy_Policy h3 {
+    color: #000;
+    padding: 20px 0;
+
+}
+
+.Privacy_Policy p {
+    line-height: 1.8;
+    color: #666;
+}
+
+.Privacy_Policy ul {
+    display: flex;
+}
+
+.Privacy_Policy li {
+    color: #666;
+    line-height: 1.8;
+    padding: 10px 0;
+}
+
+.Privacy_Policy i {
+    font-size: 20px;
+    color: rgb(232, 197, 0);
+    margin-right: 20px;
+}

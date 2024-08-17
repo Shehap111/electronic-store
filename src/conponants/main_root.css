@@ -1,0 +1,53 @@
+:root {
+    --mainBgColor: #ffffff;
+    --textColor: #1a1668;
+    --btnColor: #040134;
+    --hColor:#ffffff;
+    --pColor:#aba8a8;
+    --bgColor: #f5f7f9;
+    --mainBorder:  1px solid #8b8b8b4e;
+    --boxShadow:#8f8f8f 1px 1px 5px;
+    --secondColor: #0084d6;
+}
+
+[data-theme="Dark"]{
+    --mainBgColor:#000;
+    --hColor: #100303;
+    --textColor: #ffffff;
+    --btnColor: rgba(255, 255, 255, 0.08);
+    --hColor:#ffffff;
+    --pColor:#aba8a8;
+    --bgColor: #2e2e2e;
+    --mainBorder:  1px solid #6666664e;
+    --boxShadow:#efe4e4 1px 1px 5px;
+    --secondColor: #0084d6;
+
+    
+}
+
+
+.Scroll_To_top {
+    transition: all ease-in-out 1s;
+    animation-name: tranz2;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all ease-in .3s;
+    background-color: var(--btnColor) !important;
+    z-index: 26615151651;
+}
+
+.Scroll_To_top:hover {
+    opacity: .7;
+}
+
+@keyframes tranz2 {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}

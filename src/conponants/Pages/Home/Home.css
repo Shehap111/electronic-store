@@ -1,0 +1,365 @@
+.S1_home{
+    background-color: #F7F5EF;
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    overflow-x: hidden ;
+}
+.content_s1{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+}
+.content_s1 h1{
+    font-size: 52px;
+    font-weight: 600;
+}
+.content_s1 p{
+    font-size: 18px;
+    padding: 20px 0;
+    line-height: 1.8;
+}
+.imges_S1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px ;
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    height: 500px;
+
+}
+.imges_S1 .bg_S1{
+    width: 400px;
+    z-index: 3;
+}
+.imges_S1 span{
+    width: 100px;
+    height: 100px;
+    background-color: #ffb300;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    padding: 25px ;
+}
+.imges_S1 span img{
+    width: 40px;
+    height: 40px;
+    animation: mymove 4s infinite;
+}
+.inm_1{
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.inm_2 {
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+    width: 50px !important;
+    height: 50px !important;
+}
+.inm_3 {
+    bottom: 50px;
+    left: 0px;
+    z-index: 2;
+    width: 70px !important;
+    height: 70px !important;
+}
+.inm_4 {
+    bottom: 50px;
+    right: -20px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+@keyframes mymove {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* section 2 */
+.S2_home{
+    padding: 70px 10%;
+}
+.S2_home .card{
+    border: none;
+    position: relative;
+}
+.S2_home .card .S2_imges{
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+.S2_home .card .S2_imges img{
+    transition: all ease-in .5s;
+}
+.S2_home .card:hover img{
+    transform: scale(1.1);
+}
+.S2_home .card .S2_imges::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000057;
+    z-index: 4;
+}
+.S2_home .card .content_S2{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 5;
+}
+.S2_home .card .content_S2 span{
+    color: #ffb300;
+    font-size: 15px;
+}
+.S2_home .card .content_S2 h5{
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.S2_home .card .content_S2 i{
+    color: #ccc;
+    font-size: 20px;
+    transition: all linear .2s;
+}
+.S2_home .card .content_S2 i:hover{
+    color: #ffb300;
+}
+/* section 3 */
+.S3_home .intro-S3{
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.S3_home_products{
+    height: 450px !important;
+}
+/* section 4 */
+.S4_home{
+    margin: 70px 0;
+    background-image: url(../../../img/Home_S4_bg.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+.S4_home h3{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600; 
+}
+.S4_home p{
+    color: #ccc;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.S4_home span{
+    color: #ffb300;
+    font-size: 22px;
+}
+/* section 5 */
+.topSelling{
+    padding: 70px 10%;
+    background-color: rgb(247, 246, 241);
+}
+.topSelling .intro_S5{
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    margin-bottom:50px ;
+}
+
+/* section 7 */
+.S7_home{
+    padding: 70px 0;
+
+}
+.S7_home .item{
+    padding: 50px ;
+    border: 1px dashed #bdbaba;
+    height: 300px;
+}
+.S7_home .item p{
+    padding: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+.S7_home .item ul{
+    display: flex;
+}
+.S7_home .item ul li{
+    margin-right: 20px;
+}
+.S7_home .item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+.owl-nav{
+    padding: 30px 0;
+}
+.owl-nav i{
+    background-color: #ffb300;
+    padding: 10px ;
+    color: #fff;
+    border-radius: 30%;
+    transition: all linear .2s;
+}
+.owl-prev:hover , .owl-next:hover{
+    background-color: transparent !important;
+}
+.owl-prev:hover i,
+.owl-next:hover i{
+    background-color: #000 ;
+}
+
+@media screen and (max-width:767px){
+.S1_home{
+    padding-top: 150px ;
+}
+.imges_S1 .bg_S1 {
+    width: 150px;
+    position: relative;
+}
+
+.imges_S1 span {
+    width: 50px;
+    height: 50px;
+    background-color: #ffb300;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+}
+
+.imges_S1 span img {
+    width: 30px;
+    height: 30px;
+    animation: mymove 4s infinite;
+}
+
+.inm_1 {
+    top: -30px;
+    right: -50px;
+    z-index: 2;
+}
+
+.inm_2 {
+    top: -30px;
+    left: -50px;
+    z-index: 2;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.inm_3 {
+    bottom: 0px;
+    left: -70px;
+    z-index: 2;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.inm_4 {
+    bottom: 0px;
+    right: -30px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.imges_S1 {
+    position: relative;
+    padding: 50px;
+    width: 150px;
+    height: 100px;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+.S1_home {
+    padding: 100px 0;
+}
+.imges_S1 .bg_S1  {
+    width: 200px;
+    position: relative;
+} 
+.imges_S1 span {
+    width: 50px;
+    height: 50px;
+    background-color: #ffb300;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+}
+
+.imges_S1 span img {
+    width: 40px;
+    height: 40px;
+    animation: mymove 4s infinite;
+}
+
+.inm_1 {
+    top: 0px;
+    right: -50px;
+    z-index: 2;
+}
+
+.inm_2 {
+    top: 0px;
+    left: -50px;
+    z-index: 2;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.inm_3 {
+    bottom: 0px;
+    left: -70px;
+    z-index: 2;
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.inm_4 {
+    bottom: 0px;
+    right: -50px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.imges_S1 {
+    position: relative;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+}

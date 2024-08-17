@@ -1,0 +1,27 @@
+.spinner {
+    height: calc(100vh - 250px);
+    width: 100%;
+    background-color: #fff7d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dots .dot{
+   height: 5px;
+   width: 5px;
+   background-color: #ffd300;
+   border-radius: 50%;
+   position: absolute;
+   animation: spiner 1.5s linear infinite;
+   opacity: 0;
+}
+
+@keyframes spiner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
